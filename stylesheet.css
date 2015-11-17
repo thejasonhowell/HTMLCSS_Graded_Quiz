@@ -1,19 +1,23 @@
-
-h1 {
-	font-weight: 500px;
-	font-family: Helvetica;
-	font-color: ;
+h1.head {
+	font-weight: 800px;
+	font-family: Times New Roman;
+	font-style: bold;
+	text-align: center;
 }
 
 img.photo1 {
-	float: right;
-	width: 20%; 
+	width: 50%; 
 
+}
+
+p {
+	font-family: monospace;
 }
 
 figcaption.photo1 {
 	text-align: right;
 	float: right;
+	font-style: italic;
 }
 
 img.photo2 {
@@ -32,18 +36,6 @@ h6.add {
 	color: gray
 }
 
-h6.contact {
-	text-align: left;
-	color: black;
-	font-family: Helvetica;
-	font-weight: lighter;
-	font-size: 40px;
-
-}
-
-.thumb {
-	margin-right: 100px;
-}
 
 li.bar {
 	display: inline;
@@ -70,11 +62,5 @@ ul.nav {
 .nav a {
 	display: inline-block;
 	padding: 10px;
-}
-
-.responsive-image {
-	max-width: 100%; 
-display:block; 
-height: auto;
 
 }
