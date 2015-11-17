@@ -1,0 +1,80 @@
+
+h1 {
+	font-weight: 500px;
+	font-family: Helvetica;
+	font-color: ;
+}
+
+img.photo1 {
+	float: right;
+	width: 20%; 
+
+}
+
+figcaption.photo1 {
+	text-align: right;
+	float: right;
+}
+
+img.photo2 {
+	float: right;
+	width: 20%; 
+
+}
+
+h1.name {
+	text-align: center;
+	font-weight: lighter;
+}
+
+h6.add {
+	text-align: center;
+	color: gray
+}
+
+h6.contact {
+	text-align: left;
+	color: black;
+	font-family: Helvetica;
+	font-weight: lighter;
+	font-size: 40px;
+
+}
+
+.thumb {
+	margin-right: 100px;
+}
+
+li.bar {
+	display: inline;
+	float: left;
+	text-align: center;
+	position: relative;
+	display: inline;
+	margin: 10px;
+}
+
+ul.nav {
+	border: 1px solid #ccc;
+	border-width: 1px 0;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+.nav li {
+	display: inline;
+}
+
+.nav a {
+	display: inline-block;
+	padding: 10px;
+}
+
+.responsive-image {
+	max-width: 100%; 
+display:block; 
+height: auto;
+
+}
